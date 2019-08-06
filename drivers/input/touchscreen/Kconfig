@@ -1150,5 +1150,8 @@ config SWEEP2SLEEP
         default y
         help
           Say Y here to support sweep2sleep
+config TOUCHSCREEN_DOUBLETAP2WAKE
+  	tristate "DoubleTap2Wake for touchscreens"
+  	default n
 
 endif
